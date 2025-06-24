@@ -3,161 +3,146 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ajay Shanmuham | Full Stack Engineer</title>
+  <title>Ajay Singaravelu | Full Stack & Business-Focused Engineer</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap">
   <style>
     :root {
-      --primary: #0053ba;
-      --secondary: #4a90e2;
-      --bg: #f7f9fb;
-      --card: #fff;
-      --accent: #e8f1fa;
-      --text: #222;
-      --muted: #777;
+      --sage-green: #9caf88;
+      --azure: #0053ba;
+      --blood-red: #8a0303;
+      --bg-light: #f7f9fb;
+      --text-dark: #222;
+      --text-muted: #555;
+      --card-bg: #ffffff;
     }
     body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: var(--bg-light);
+      color: var(--text-dark);
       margin: 0;
-      font-family: 'Montserrat', Arial, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-    }
-    .container {
-      max-width: 780px;
-      margin: 32px auto 0;
-      background: var(--card);
-      border-radius: 14px;
-      box-shadow: 0 8px 32px rgba(0,83,186,0.10);
-      padding: 40px 32px;
+      padding: 0;
     }
     header {
+      background: linear-gradient(135deg, var(--azure), var(--sage-green));
+      padding: 60px 20px 40px;
       text-align: center;
-    }
-    .avatar {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      box-shadow: 0 4px 18px rgba(0,83,186,0.12);
-      margin-bottom: 18px;
-      border: 4px solid var(--accent);
-      background: var(--accent);
-    }
-    h1 {
-      margin: 0;
-      font-size: 2.5em;
-      color: var(--primary);
-    }
-    .subtitle {
-      color: var(--secondary);
-      margin-bottom: 20px;
-      font-size: 1.2em;
-      font-weight: 500;
-    }
-    .about {
-      font-size: 1.05em;
-      line-height: 1.7;
-      color: var(--text);
-      margin-bottom: 26px;
-      margin-top: 24px;
-    }
-    .links {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 18px;
-      margin-bottom: 30px;
-    }
-    .links a {
-      text-decoration: none;
-      color: var(--primary);
-      font-weight: 600;
-      background: var(--accent);
-      border-radius: 8px;
-      padding: 10px 20px;
-      transition: background .2s, color .2s;
-      box-shadow: 0 2px 8px rgba(74, 144, 226, 0.08);
-    }
-    .links a:hover {
-      background: var(--primary);
       color: #fff;
     }
-    section {
-      margin-bottom: 28px;
+    header h1 {
+      font-size: 2.8em;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    .container {
+      max-width: 900px;
+      margin: -40px auto 0;
+      background-color: var(--card-bg);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      border-radius: 15px;
+      padding: 30px;
+    }
+    .intro {
+      text-align: center;
+      font-size: 1.1em;
+      margin-bottom: 25px;
+      color: var(--text-muted);
     }
     h2 {
-      font-size: 1.35em;
-      margin-bottom: 10px;
-      color: var(--primary);
+      color: var(--azure);
+      border-left: 6px solid var(--blood-red);
+      padding-left: 12px;
+      margin-bottom: 15px;
+      font-size: 1.4em;
     }
     ul {
       padding-left: 20px;
-      margin: 0;
     }
     li {
-      margin-bottom: 7px;
+      margin-bottom: 8px;
+      line-height: 1.6;
     }
-    .badges {
-      margin-top: 10px;
-      margin-bottom: 16px;
+    .cta {
       text-align: center;
+      margin-top: 30px;
     }
-    .badges img {
-      margin-right: 9px;
-      margin-bottom: 5px;
-      vertical-align: middle;
+    .cta a {
+      display: inline-block;
+      margin: 8px;
+      padding: 12px 22px;
+      text-decoration: none;
+      background-color: var(--blood-red);
+      color: #fff;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .cta a:hover {
+      background-color: var(--azure);
     }
     footer {
       text-align: center;
-      color: var(--muted);
-      padding: 24px 0 8px;
-      font-size: 1em;
-      margin-top: 24px;
+      margin-top: 50px;
+      padding: 20px;
+      color: var(--text-muted);
+      font-size: 0.9em;
     }
-    @media (max-width: 600px) {
-      .container { padding: 18px 7px; }
-      h1 { font-size: 1.5em; }
-      .about { font-size: 1em; }
-      .links a { padding: 9px 11px; font-size: 0.97em; }
+    @media (max-width: 768px) {
+      .container { margin: -30px 15px 0; padding: 25px; }
+      header h1 { font-size: 2em; }
     }
   </style>
 </head>
 <body>
+  <header>
+    <h1>Ajay Singaravelu</h1>
+    <p>Software Generalist | .NET Core Engineer | C# | ASP .NET | .NET Aspire | Angular | Testing (Jest/RTL) | TypeScript | XML | Docker | GraphQL | CI/CD | Next .JS | MySQL | UX/UI | Blazor Full-Stack App | Tech Support 24x7</p>
+  </header>
+
   <div class="container">
-    <header>
-      <img class="avatar" src="https://avatars.githubusercontent.com/u/your-github-user-id" alt="Ajay's avatar">
-      <h1>Ajay Shanmuham</h1>
-      <div class="subtitle">Full Stack Engineer · Data Engineering · Cloud · Open Source</div>
-      <div class="links">
-        <a href="https://github.com/ajayshanmuham38" target="_blank">GitHub</a>
-        <a href="mailto:10ajay.ss30@gmail.com" target="_blank">Email</a>
-        <a href="https://www.linkedin.com/in/reach2ajay-connectsyou/" target="_blank">LinkedIn</a>
-        <a href="https://twitter.com/yourtwitter" target="_blank">Twitter</a>
-      </div>
-    </header>
-    <div class="about">
-      Hi! I'm Ajay, a forward-thinking full-stack engineer focused on creating robust, scalable, and future-ready solutions for enterprises and startups alike. My passion is building with data, optimizing performance, and leveraging the power of the cloud. I thrive on innovation, collaboration, and continuous learning. Let's connect and create something impactful!
-    </div>
+    <p class="intro">Hi! I'm Ajay, a forward-thinking full-stack engineer focused on 
+      creating robust, scalable, and future-ready solutions for enterprises and startups alike. 
+      My passion is building with data, optimizing performance, and leveraging the power of the cloud. 
+      I thrive on innovation, collaboration, and continuous learning. Let's connect and create something impactful!</p>
 
     <section>
-      <h2>📈 GitHub Stats</h2>
-      <div class="badges">
-        <img alt="GitHub followers" src="https://img.shields.io/github/followers/ajayshanmuham38?style=social">
-        <img alt="GitHub stars" src="https://img.shields.io/github/stars/ajayshanmuham38?style=social">
-      </div>
-    </section>
-
-    <section>
-      <h2>🌱 Skills</h2>
+      <h2 class="section-title">Professional Expertise</h2>
       <ul>
-        <li>JavaScript, Python, C#</li>
-        <li>React, Node.js, Next.js</li>
-        <li>Azure, AWS, Databricks</li>
-        <li>Big Data, ETL, SQL, Kafka</li>
-        <li>DevOps, Docker, CI/CD</li>
+        <li>Data Engineering & Advanced Analytics</li>
+        <li>Full Stack Development & Modern Web Applications</li>
+        <li>Cloud Solutions (AWS, Azure, Databricks)</li>
+        <li>Scalable Systems & Microservices</li>
+        <li>DevOps, CI/CD, and Automation</li>
       </ul>
     </section>
+    <section>
+      <h2>Versatile Core Tech Skillset with proficiency across a broad range of Biz Stack platforms & tools 🧠</h2>
+      <ul>
+        <li>Highly skilled in .NET and API development, demonstrated expertise in ASP.NET Core Web API | Entity Framework Core | LINQ 
+          | RESTful API and gRPC | Clean Architecture (SOLID) | OAuth 2.0 / JWT authentication | SignalR</li>
+        <li>With experience in front-end and user experience (UX) development, my creative outlets fuel curiosity and inspire fresh perspectives. using React.js 
+          | Angular | Blazor | TypeScript | HTML5/CSS3 | Web performance optimization</li>
+        <li>Able to proficiently adapt to changing environments of cloud proficiency with expertise in Azure DevOps (CI/CD, Boards, Repos) | Azure Functions 
+          | AWS Lambda (C#) | Kubernetes | Docker | Terraform | Infrastructure as Code (IaC). </li>
+        <li>Performed hands-on duties in analytics and integration, such as Power BI | SSIS/SSRS | Microservices 
+          | MVC and MVVM architectures, | Real-time data integration</li>
+        <li>Open to feedback and collaborative input. Well-versed in Agile (Scrum/Kanban) | Git and GitHub Actions | Jira 
+          | Technical documentation and communication</li>
+      </ul>
+    </section>
+
+  <div style="text-align:center;">
+      <h2 class="section-title">Call to Action & Engagement</h2>
+      <a href="mailto:10ajay.ss30@gmail.com">Email</a>
+      <a> Ph# +1-(571) 697-7874</a>
+    <a href="https://www.linkedin.com/in/reach2ajay-connectsyou/">LinkedIn</a>
+    </section>
   </div>
+
   <footer>
-    &copy; 2025 Ajay Shanmuham &middot; Built with <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
+    &copy; 2025 Ajay Singaravelu · Designed for impact
   </footer>
 </body>
 </html>
